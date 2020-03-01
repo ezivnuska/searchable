@@ -1,0 +1,24 @@
+@import '~assets/scss/main';
+
+.card {
+    a {
+        font-size: 1.5rem;
+        color: $link-color;
+
+        h2 {
+            font-size: 1.6rem;
+            margin: 0 0 0.25rem 0;
+        }
+
+        &:hover {
+            color: $link-color-hover;
+        }
+
+        &:visited {
+            color: $link-color-visited;
+        }
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}

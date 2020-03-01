@@ -1,0 +1,19 @@
+ul.search-results {
+    max-width: 500px;
+    margin: 0 auto;
+
+    li {
+        padding: 1rem 0 0;
+        border-bottom: 1px solid #ccc;
+        
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+    }
+}
